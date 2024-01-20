@@ -1,14 +1,59 @@
 <html lang="en">
 <head>
+    <title>AUDREY'S TIME PAGE</title>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello!</h1>
-    <h2>howdy!</h2>
-    <p>wassup</p>
-    <p>hihihihihihi</p>
+    <div id="preloader"></div>
+
+    <h1>time</h1>
+    <div class="container">
+        <div class="box-1">
+            <p>Time is a fundamental concept that helps us measure and quantify 
+                the duration between events or the sequence of events themselves. 
+                In physics, time is often considered a dimension in which events 
+                occur in a linear fashion, and it is a crucial component of the 
+                space-time continuum.
+
+                In everyday terms, time is commonly measured in seconds, minutes, 
+                hours, days, and so on. It provides a way for us to organize and 
+                understand the sequence of events in our lives and the world around us. 
+                Time is relative, meaning its perception can be influenced by various 
+                factors, such as motion and gravity, as described by Einstein's 
+                theory of relativity.
+                
+                There are different philosophical and scientific perspectives on 
+                the nature of time, and it remains a topic of exploration and 
+                discussion across various fields. Whether considered a fundamental 
+                aspect of the universe or a human-created concept, time plays a 
+                significant role in our understanding of reality.
+            </p>
+        </div>
+    </div>
     
+    <p></p>
+
+    <div class="containerlink">
+    <a href="nextpage.html">Next</a>
+    </div>
+
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            setTimeout(function() {
+                    loader.style.opacity = "0"; 
+                }, 2000);
+                
+            setTimeout(function() {
+                loader.style.display = "none";
+            }, 3000);
+        })
+
+    </script>
+
+
 </body>
 </html>

@@ -1,0 +1,33 @@
+body{
+    color:rgb(178, 178, 178);
+    font: normal 12px Arial, Helvetica, sans-serif;
+    margin: 0px; 
+}
+
+.container{
+    margin:auto;
+    width: 80%;
+}
+
+.box-1{
+    background-color: rgb(255, 255, 255);
+    color:#46464680;
+    border: 2px rgb(128, 128, 128) solid;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+
+
+.containerlink{
+    text-align: left;
+}
+
+a{
+    color: #704a4a3e;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #261b1b;
+}
